@@ -35,6 +35,7 @@ parking_lot = "0.12"
 
 notify = "8.2.0"
 walkdir = "2.4"
+syn = "2.0.106"
 
 rusqlite = { version = "0.37.0", features = ["bundled"] }
 
