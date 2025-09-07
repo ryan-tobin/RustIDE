@@ -20,6 +20,7 @@ pub mod file_system;
 pub mod search;
 pub mod settings;
 pub mod syntax;
+pub mod project;
 
 /// Global state containing all open editors
 pub type EditorMap = Arc<RwLock<HashMap<Uuid, Editor>>>;
